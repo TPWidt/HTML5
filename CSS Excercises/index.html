@@ -6,6 +6,7 @@
             body{
                 background-color: blue;
                 margin:0;
+                background-image:img id="JotaroCallsYouALiberal";
             }
             h1{
                 color:yellow;
@@ -32,6 +33,13 @@
                 position: absolute;
                 left: 300px;
                 top: 300px;
+
+            }
+            div#box:hover{
+                width: 250px;
+                height: 250px;
+                border-radius: 0px;
+                transition: 1s; 
             }
             div#circle{
                 background-color:yellowgreen;
@@ -42,6 +50,35 @@
                 left: 100px;
                 top: 100px;
             }
+            div#circle:hover{
+                width: 250px;
+                height: 250px;
+                border-radius: 0px;
+                transition: 1s; 
+            }
+            
+            div#triangle-up {
+                width: 20;
+                height: 20;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 20px solid red;
+            }
+            img#JotaroCallsYouALiberal{
+                display:block;
+                width:auto;
+                height:auto;
+                border:inset 5px cyan;
+                z-index:1;
+                border-radius: 25%;
+                box-shadow: 5px 5px 100px black;
+            }
+            img#JotaroCallsYouALiberal:hover{
+                width: 750px;
+                height: 750px;
+                border-radius: 0px;
+                transition: 1s; 
+            }
         </style>
     </head>
     <body>
@@ -51,5 +88,7 @@
         <h6>BOTTOM TEXT</h6>
         <div id="box"></div>
         <div id="circle"></div>
+        <div id="triangle-up"></div>
+        <img src="LIBERAL.png" id="JotaroCallsYouALiberal">
     </body>
 </html>
