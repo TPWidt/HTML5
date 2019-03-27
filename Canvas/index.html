@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <title>Canvas Excercise #1</title>
+    
+    <canvas id="myCanvas" width="800" height="600" style="border:10px solid #259995;">
+    </canvas>
+    
+    <script>
+        //Setup Canvas
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        //Draw Rectangle
+        ctx.fillstyle = "#1a8cff";
+        ctx.fillRect(0,0, 100, 100);
+        //Draw Line
+        ctx.moveTo(0,0);
+        ctx.lineTo(800,600);
+        ctx.stroke();
+        //Draw Circle
+        ctx.beginPath();
+        ctx.arc(400,300,100,0,10 * Math.PI);
+        ctx.stroke();
+        
+        // Create gradient
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+        
+        ctx.fillstyle = grd;
+        ctx.fillRect(10,10,150,80);
+        
+        var grd = ctx.createRadialGradient (75,50,5,90,60,100);
+        grd.addColorStop(0,"red");
+        grd.addColorStop(1, "white");
+        ctx.fillStyle = grd;
+        ctx.fillRect(10,90, 150,170);
+    </script>
+    
+    
+    </body>
+
+</html>
