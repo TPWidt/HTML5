@@ -41,6 +41,32 @@ div#content{
     width:100%;
     background-color: black;
 }
+.icon-bar {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color: fuchsia;
+    overflow:auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color:black;
+    font-size: 36px
+}
+.icon-bar a:hover {
+    background-color: mediumpurple;
+}
+
+.active {
+    background-color: fuchsia;
+}
+
 nav{
     background-color: fuchsia;
     color:white;
@@ -48,6 +74,8 @@ nav{
     font-size: 3em;
 }
 nav ul{
+    width:96%;
+    margin:auto;
     list-style: none;
 }
 nav ul li{
@@ -66,6 +94,8 @@ nav ul li a{
 nav ul li a:hover{
     background-color: black;
     color: fuchsia;
+
+
 }
 footer{
     position:fixed;
@@ -93,9 +123,11 @@ div.keepOpen{
     div#container{
         width:100%
 }
-
+    
     nav ul li a{
         float:none;
         text-align:center;
     }
 }
+
+    
