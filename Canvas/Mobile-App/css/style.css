@@ -29,6 +29,11 @@ header{
     padding: 10p;
     background-color: fuchsia;
 }
+header img#applogo{
+    display: block; 
+    margin: auto;
+    width: 100px;
+}
 
 header h1{
     color:Black;
@@ -109,8 +114,8 @@ div.keepOpen{
     clear: both;
 }
 img#product{
-    width:39%;
-    height:39%;
+    width:35%;
+    height:35%;
     margin:auto;
     display:block;
     
