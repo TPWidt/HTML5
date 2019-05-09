@@ -27,7 +27,7 @@ div#container{
 header{
     width = 100%;
     padding: 10p;
-    background-color: fuchsia;
+    background-color: mediumpurple;
 }
 header img#applogo{
     display: block; 
@@ -47,11 +47,11 @@ div#content{
     background-color: black;
 }
 .icon-bar {
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     width: 100%;
-    background-color: fuchsia;
+    background-color: mediumpurple;
     overflow:auto;
 }
 
@@ -65,15 +65,15 @@ div#content{
     font-size: 36px
 }
 .icon-bar a:hover {
-    background-color: mediumpurple;
+    background-color: royalblue;
 }
 
 .active {
-    background-color: fuchsia;
+    background-color: mediumpurple;
 }
 
 nav{
-    background-color: fuchsia;
+    background-color: mediumpurple;
     color:white;
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 3em;
@@ -98,7 +98,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: black;
-    color: fuchsia;
+    color: mediumpurple;
 
 
 }
@@ -122,6 +122,32 @@ img#product{
 }
 div.keepOpen{
     clear:both;
+}
+
+div#product_grp{
+    width:auto;
+    margin:auto;
+}
+    
+figure.product{
+    width: 20%;
+    background-color: blueviolet;
+}
+
+figure.product img{
+    display:block;
+    width: 10%;
+    margin:auto;
+    padding:10px 0px;
+}
+
+figure.product figcaption{
+    text-align: center;
+    color:white;
+    font-family: monospace;
+    font-size: 24px;
+}
+
 }
 
 @media screen and (max-width: 600px) {
