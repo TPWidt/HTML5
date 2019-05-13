@@ -126,8 +126,9 @@ div.keepOpen{
 
 maintext{
     font-family:monospace;
+    position:static;
     color:fuchsia;
-    font-size:2em;
+    font-size:5em;
     right: 500;
     top: 500;
 }
