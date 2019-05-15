@@ -18,6 +18,14 @@ body{
     background-clip: border-box
 }
 
+legend, span, input, textarea{
+    display:block;
+    margin:auto;
+    text-align:center;
+    font-family:monospace;
+    color:aqua;
+}
+
 div#container{
     width:100%;
     height:1000px;
@@ -114,8 +122,8 @@ div.keepOpen{
     clear: both;
 }
 img#product{
-    width:37%;
-    height:37%;
+    width:13%;
+    height:13%;
     margin:auto;
     display:block;
     
@@ -128,6 +136,7 @@ div.keepOpen{
     div#container{
         width:100%
 }
+
     
     nav ul li a{
         float:none;

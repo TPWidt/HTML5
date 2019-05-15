@@ -35,6 +35,26 @@ header img#applogo{
     width: 100px;
 }
 
+maintext{
+    font-family:monospace;
+    text-align: center;
+    position:static;
+    color:orangered;
+    font-size:3em;
+    right: 500;
+    top: 500;
+}
+
+joinus{
+    font-family:monospace;
+    text-align: center;
+    position:static;
+    color:red;
+    font-size:8em;
+    right: 500;
+    top: 500;
+}
+
 header h1{
     color:Black;
     font-family: 'Libre Barcode 128 Text', cursive;

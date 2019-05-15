@@ -148,7 +148,7 @@ figure.ProductA{
     font-size: 24px;
 }
 
-figure.ProductX{
+figure.ProductB{
     margin:auto;
     text-align: center;
     color:black;
@@ -156,13 +156,53 @@ figure.ProductX{
     font-size: 24px;
 }
 
-figure.ProductX img{
+figure.ProductB img{
+    margin:auto;
+    width: 35%;
+    padding:5px 0px;
+}
+
+figure.ProductC{
+    margin:auto;
+    text-align: center;
+    color:black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+figure.ProductC img{
+    margin:auto;
+    width: 15%;
+    padding:5px 0px;
+}
+
+figure.ProductD{
+    margin:auto;
+    text-align: center;
+    color:black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+figure.ProductD img{
+    margin:auto;
+    width: 10%;
+    padding:5px 0px;
+}
+
+figure.ProductE{
+    margin:auto;
+    text-align: center;
+    color:black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+figure.ProductE img{
     margin:auto;
     width: 25%;
     padding:5px 0px;
 }
-
-
 @media screen and (max-width: 600px) {
     div#container{
         width:100%
