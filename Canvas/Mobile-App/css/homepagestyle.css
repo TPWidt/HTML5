@@ -114,8 +114,8 @@ div.keepOpen{
     clear: both;
 }
 img#product{
-    width:10%;
-    height:10%;
+    width:19%;
+    height:19%;
     margin:auto;
     display:block;
     
@@ -132,6 +132,18 @@ maintext{
     font-size:3em;
     right: 500;
     top: 500;
+    margin:20px;
+}
+
+subtext{
+    font-family:monospace;
+    text-align: center;
+    position:static;
+    color:fuchsia;
+    font-size:3em;
+    right: 500;
+    top: 500;
+    margin:20px;
 }
 
 p{
